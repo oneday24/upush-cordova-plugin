@@ -1,0 +1,38 @@
+{
+    "name": "upush-phonegap-plugin",
+    "version": "1.0.0",
+    "description": "UPush for cordova plugin",
+    "cordova": {
+        "id": "upush-cordova-plugin",
+        "platforms": [
+            "android"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/oneday24/upush-cordova-plugin.git"
+
+    },
+    "keywords": [
+        "UPush",
+        "umeng",
+        "umeng push"
+        "push",
+        "Push",
+        "ecosystem:cordova",
+        "cordova-android"
+    ],
+    "engines": [{
+        "name": "cordova",
+        "version": ">=3.0"
+    }],
+    "dependencies": {
+        "cordova-plugin-device": "*",
+    },
+    "author": "ZengJing",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/oneday24/upush-cordova-plugin/issues"
+    },
+    "homepage": "https://github.com/oneday24/upush-cordova-plugin#readme"
+}
