@@ -1,5 +1,5 @@
 {
-    "name": "upush-phonegap-plugin",
+    "name": "upush-cordova-plugin",
     "version": "1.0.0",
     "description": "UPush for cordova plugin",
     "cordova": {
