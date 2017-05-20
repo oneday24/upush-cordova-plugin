@@ -14,5 +14,13 @@ UPushPlugin.prototype.init = function () {
   }else{
     this.callNative('init', [], null)
   }
-  
+
 }
+
+if(!window.plugins){
+  window.plugins = {}
+}
+if(!window.plugins.uPushPlugin){
+  window.plugins.uPushPlugin = new UPushPlugin()
+}
+module.exports = new UPushPlugin()
