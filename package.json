@@ -27,7 +27,7 @@
         "version": ">=3.0"
     }],
     "dependencies": {
-        "cordova-plugin-device": "*",
+        "cordova-plugin-device": "*"
     },
     "author": "ZengJing",
     "license": "MIT",
